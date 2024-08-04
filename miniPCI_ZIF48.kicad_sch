@@ -14,6 +14,7 @@
 		(comment 3 "RB2/mPCIe -> RB1/ZIF")
 		(comment 4 "RB1/mPCIe -> RB0/ZIF")
 		(comment 5 "V2/mPCIe powerline -> each : VCC/ZIF.")
+		(comment 6 "Having PWR_FLAG -> GND will solve GND issues.")
 	)
 	(lib_symbols
 		(symbol "Device:C"
