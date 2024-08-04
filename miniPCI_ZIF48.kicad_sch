@@ -352,7 +352,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ZIF-48P"
+			(property "Reference" "ZIF-48P1"
 				(at 0 34.29 0)
 				(effects
 					(font
@@ -368,8 +368,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -8.636 26.67 0)
+			(property "Footprint" "DIP-48_W15.24mm:DIP-48_W15.24mm_Socket"
+				(at 0.254 37.338 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5558,8 +5558,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.584 24.13 0)
+		(property "Footprint" "DIP-48_W15.24mm:DIP-48_W15.24mm_Socket"
+			(at 109.474 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mini_PCI_Type_III_female_Socket:MINIPCI_TYPE_IIIA"
 			(at 29.21 59.69 0)
 			(effects
 				(font

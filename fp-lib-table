@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DIP-48_W15.24mm")(type "KiCad")(uri "${KIPRJMOD}/DIP-48_W15.24mm.pretty")(options "")(descr ""))
+  (lib (name "mini_PCI_Type_III_female_Socket")(type "KiCad")(uri "${KIPRJMOD}/mini_PCI_Type_III_female_Socket.pretty")(options "")(descr ""))
+)
