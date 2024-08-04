@@ -1191,9 +1191,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 11.43 180)
+					(at 13.97 -8.89 180)
 					(length 5.08)
-					(name "D8"
+					(name "D0"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1209,9 +1209,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 13.97 180)
+					(at 13.97 11.43 180)
 					(length 5.08)
-					(name "D9"
+					(name "D8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1227,9 +1227,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 16.51 180)
+					(at 13.97 -6.35 180)
 					(length 5.08)
-					(name "D10"
+					(name "D1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1245,9 +1245,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -8.89 180)
+					(at 13.97 13.97 180)
 					(length 5.08)
-					(name "D0"
+					(name "D9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1281,9 +1281,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -6.35 180)
+					(at 13.97 -3.81 180)
 					(length 5.08)
-					(name "D1"
+					(name "D2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1299,9 +1299,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -3.81 180)
+					(at 13.97 16.51 180)
 					(length 5.08)
-					(name "D2"
+					(name "D10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1479,9 +1479,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 21.59 180)
+					(at 13.97 1.27 180)
 					(length 5.08)
-					(name "D12"
+					(name "D4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1497,9 +1497,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 1.27 180)
+					(at 13.97 21.59 180)
 					(length 5.08)
-					(name "D4"
+					(name "D12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1533,9 +1533,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 6.35 180)
+					(at 13.97 24.13 180)
 					(length 5.08)
-					(name "D6"
+					(name "D13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1551,9 +1551,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 8.89 180)
+					(at 13.97 6.35 180)
 					(length 5.08)
-					(name "D7"
+					(name "D6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1569,9 +1569,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 24.13 180)
+					(at 13.97 26.67 180)
 					(length 5.08)
-					(name "D13"
+					(name "D14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1587,9 +1587,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 26.67 180)
+					(at 13.97 8.89 180)
 					(length 5.08)
-					(name "D14"
+					(name "D7"
 						(effects
 							(font
 								(size 1.016 1.016)
