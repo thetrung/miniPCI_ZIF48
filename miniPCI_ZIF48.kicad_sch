@@ -7,7 +7,7 @@
 	(title_block
 		(title "mPCIE_62P_Connector_ZIF_48P")
 		(date "2024-08-04")
-		(rev "1.0")
+		(rev "1.2")
 		(company "Deulamco")
 	)
 	(lib_symbols
