@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Footprint is based on the official http://read.pudn.com/downloads61/doc/210851/MiniPCI.pdf Mini PCI Specification (Revision 1.0 October 25, 1999).\nPage: 53..61 (Mechanical Design Details)")
-	(property "Reference" ""
+	(property "Reference" "Ref**"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "2e85901b-19b0-437d-9c6f-6272c96c4c92")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "27672647-bc72-4eb9-acb7-5b90d97fc62d")
@@ -99,8 +99,8 @@
 		(uuid "796e4a65-945e-42a5-b068-cd52937b41ff")
 	)
 	(fp_line
-		(start -1 -50.95)
-		(end 60.5 -50.95)
+		(start -1.5 -50.95)
+		(end 61 -51)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -109,8 +109,8 @@
 		(uuid "257d8f35-fe53-42d2-acb9-f520da6b4c78")
 	)
 	(fp_line
-		(start -1 -33)
-		(end -1 -50.95)
+		(start -1.5 -32.5)
+		(end -1.5 -50.95)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -119,8 +119,8 @@
 		(uuid "cc3386b7-126a-4bf6-bf57-604e67cf67bd")
 	)
 	(fp_line
-		(start 0 -33)
-		(end -1 -33)
+		(start 0 -32.5)
+		(end -1.5 -32.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -130,7 +130,7 @@
 	)
 	(fp_line
 		(start 0 -22)
-		(end 0 -33)
+		(end 0 -32.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -190,7 +190,7 @@
 	)
 	(fp_line
 		(start 59.6 -22)
-		(end 59.6 -33)
+		(end 59.6 -32.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -209,8 +209,8 @@
 		(uuid "7446665c-0707-46ac-9cbb-07adc5870b28")
 	)
 	(fp_line
-		(start 60.5 -33)
-		(end 59.6 -33)
+		(start 61 -32.5)
+		(end 59.6 -32.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -219,8 +219,8 @@
 		(uuid "f55c013a-4cd3-4a50-ab1b-80f89319aa8f")
 	)
 	(fp_line
-		(start 60.5 -33)
-		(end 60.5 -50.95)
+		(start 61 -32.5)
+		(end 61 -51)
 		(stroke
 			(width 0.1)
 			(type solid)

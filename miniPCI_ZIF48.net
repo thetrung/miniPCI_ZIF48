@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/deulamco/Documents/PCB_Design/miniPCI_ZIF48/miniPCI_ZIF48.kicad_sch")
-    (date "2024-08-04T23:41:59+0700")
+    (date "2024-08-07T23:39:41+0700")
     (tool "Eeschema 8.0.4-8.0.4-0~ubuntu24.04.1")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -22,10 +22,10 @@
   (components
     (comp (ref "C1")
       (value "100NF")
-      (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
       (description "Unpolarized capacitor")
       (fields
-        (field (name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+        (field (name "Footprint") "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
         (field (name "Datasheet"))
         (field (name "Description") "Unpolarized capacitor"))
       (libsource (lib "Device") (part "C") (description "Unpolarized capacitor"))
@@ -37,10 +37,10 @@
       (tstamps "c68847a8-44aa-4e48-98c1-b816874d41f5"))
     (comp (ref "C2")
       (value "100NF")
-      (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
       (description "Unpolarized capacitor")
       (fields
-        (field (name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+        (field (name "Footprint") "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
         (field (name "Datasheet"))
         (field (name "Description") "Unpolarized capacitor"))
       (libsource (lib "Device") (part "C") (description "Unpolarized capacitor"))
@@ -52,10 +52,10 @@
       (tstamps "434e2614-eb5d-4055-8256-8ab9dcfd3b44"))
     (comp (ref "C3")
       (value "100NF")
-      (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
       (description "Unpolarized capacitor")
       (fields
-        (field (name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+        (field (name "Footprint") "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
         (field (name "Datasheet"))
         (field (name "Description") "Unpolarized capacitor"))
       (libsource (lib "Device") (part "C") (description "Unpolarized capacitor"))
@@ -67,10 +67,10 @@
       (tstamps "0a6b46ce-cbcf-4dc4-b9d3-d98917ce24b0"))
     (comp (ref "C4")
       (value "100NF")
-      (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
       (description "Unpolarized capacitor")
       (fields
-        (field (name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+        (field (name "Footprint") "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
         (field (name "Datasheet"))
         (field (name "Description") "Unpolarized capacitor"))
       (libsource (lib "Device") (part "C") (description "Unpolarized capacitor"))
@@ -82,8 +82,9 @@
       (tstamps "57c06465-4ff0-4a58-961b-0a43b1461562"))
     (comp (ref "mPCIE-62P1")
       (value "~")
+      (footprint "mini_PCI_Type_III_female_Socket:MINIPCI_TYPE_IIIA")
       (fields
-        (field (name "Footprint"))
+        (field (name "Footprint") "mini_PCI_Type_III_female_Socket:MINIPCI_TYPE_IIIA")
         (field (name "Datasheet"))
         (field (name "Description")))
       (libsource (lib "zif-48p") (part "mPCIE-62p") (description ""))
@@ -93,6 +94,7 @@
       (tstamps "bac2af33-4648-4ffb-9b5b-0d142d02bf99"))
     (comp (ref "ZIF-48P1")
       (value "~")
+      (footprint "DIP-48_W15.24mm:DIP-48_W15.24mm_Socket")
       (fields
         (field (name "MF"))
         (field (name "Description_1"))
@@ -104,7 +106,7 @@
         (field (name "MP"))
         (field (name "Availability"))
         (field (name "MANUFACTURER"))
-        (field (name "Footprint"))
+        (field (name "Footprint") "DIP-48_W15.24mm:DIP-48_W15.24mm_Socket")
         (field (name "Datasheet"))
         (field (name "Description")))
       (libsource (lib "zif-48p") (part "ZIF-48P") (description ""))
@@ -139,9 +141,9 @@
         (pin (num "2") (name "") (type "passive"))))
     (libpart (lib "zif-48p") (part "ZIF-48P")
       (fields
-        (field (name "Reference") "ZIF-48P")
+        (field (name "Reference") "ZIF-48P1")
         (field (name "Value") "~")
-        (field (name "Footprint"))
+        (field (name "Footprint") "DIP-48_W15.24mm:DIP-48_W15.24mm_Socket")
         (field (name "Datasheet"))
         (field (name "Description"))
         (field (name "MF"))
@@ -205,9 +207,9 @@
         (pin (num "48") (name "GND") (type "passive"))))
     (libpart (lib "zif-48p") (part "mPCIE-62p")
       (fields
-        (field (name "Reference") "mPCIE-62P")
+        (field (name "Reference") "mPCIE-62P1")
         (field (name "Value") "~")
-        (field (name "Footprint"))
+        (field (name "Footprint") "mini_PCI_Type_III_female_Socket:MINIPCI_TYPE_IIIA")
         (field (name "Datasheet"))
         (field (name "Description")))
       (pins
