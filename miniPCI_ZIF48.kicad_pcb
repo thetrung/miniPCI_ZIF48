@@ -105,7 +105,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00011fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -137,9 +137,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../../Downloads/mPCI_ZIF48/")
 		)
 	)
 	(net 0 "")
@@ -1189,7 +1189,7 @@
 		(at 135.2 139.85)
 		(descr "Footprint is based on the official http://read.pudn.com/downloads61/doc/210851/MiniPCI.pdf Mini PCI Specification (Revision 1.0 October 25, 1999).\nPage: 53..61 (Mechanical Design Details)")
 		(property "Reference" "mPCIE-62P1"
-			(at 1.3 -27.35 270)
+			(at 1.3 -27.35 -90)
 			(layer "B.SilkS")
 			(uuid "58c9970e-50bf-4447-96e0-74b36e252109")
 			(effects
@@ -3612,7 +3612,7 @@
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=7.5mm, , length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 7.5mm  length 3.8mm diameter 2.6mm")
 		(property "Reference" "C1"
-			(at 3.75 2.42 360)
+			(at 3.75 2.42 0)
 			(layer "B.SilkS")
 			(uuid "01fe1270-80a6-4d7a-98ce-0a1b145df529")
 			(effects
@@ -3624,7 +3624,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 3.75 -2.42 360)
+			(at 3.75 -2.42 0)
 			(layer "B.Fab")
 			(uuid "08aa9c00-7230-494c-93f5-31cf03c7b6e7")
 			(effects
@@ -3843,7 +3843,7 @@
 			(uuid "57386c1d-cd75-496b-baa2-c377690aa875")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 0 360)
+			(at 3.75 0 0)
 			(layer "B.Fab")
 			(uuid "02dee2a2-69d9-497a-881d-f65a22697699")
 			(effects
@@ -4204,18 +4204,6 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "@Radovan Hlaváček\n@Nguyễn Vũ Hà\n@deulamco"
-		(at 135.5 113 0)
-		(layer "F.SilkS")
-		(uuid "0de87fc3-2614-40e4-a944-498f8ef58398")
-		(effects
-			(font
-				(size 0.65 0.65)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "DRC LAB"
 		(at 156.5 112 0)
 		(layer "F.SilkS" knockout)
@@ -4389,8 +4377,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "MiniPCI to ZIF48\n"
-		(at 135.5 109.5 0)
+	(gr_text "MiniPCI To ZIF48\n"
+		(at 142.5 109.5 0)
 		(layer "F.SilkS")
 		(uuid "6401f491-3ca3-4fe7-b1b1-6fb488412766")
 		(effects
@@ -4399,7 +4387,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "Aug, 8th 2024\nminiPCI_ZIF48 rev.1\n"
