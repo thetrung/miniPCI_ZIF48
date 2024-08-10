@@ -5300,7 +5300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 65.0748 99.06 0)
 			(effects
 				(font
@@ -5370,7 +5370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 38.4048 99.06 0)
 			(effects
 				(font
@@ -5506,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.1752 86.36 0)
 			(effects
 				(font
@@ -6263,7 +6263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 134.3152 86.36 0)
 			(effects
 				(font
